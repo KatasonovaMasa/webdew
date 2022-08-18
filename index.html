@@ -1,311 +1,103 @@
 <html>
-    <head>
-        <title>Обо мне</title>
-        <meta charset="UTF-8" />    
-        <style>
-          
-           .parent {
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            height: 250px;
-            height: 100px;
-            left: 0px;
-            top: 0px;
-           }
 
-           .name{/* Олег Сосорев */
-
-                  position: absolute;
-                  height: 29px;
-                  left: 165px;
-                  top: 38px;
-
-                  font-family: 'Inter';
-                  font-style: normal;
-                  font-weight: 700;
-                  font-size: 24px;
-                  line-height: 29px;
-                  /* identical to box height */
-
-                  color: #FFFFFF;
-
-                  border: 1px solid #000000;
-                  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-           }
-
-           .about_me{
-            /* Обо мне */
-
-position: absolute;
-width: 68px;
-height: 19px;
-left: 570px;
-top: 44px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 19px;
-text-decoration-line: underline;
-
-color: #FFFFFF;
-
-
-
-
-
-
-
-           }
-           .work{
-           /* Моя деятельность */
-
-position: absolute;
-width: 146px;
-height: 19px;
-left: 663px;
-top: 44px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-
-color: #FFFFFF;
-
-
-
-
-           }
-           .calcul{
-            /* Калькулятор */
-
-              position: absolute;
-              width: 100px;
-              height: 19px;
-              left: 835px;
-              top: 44px;
-
-              font-family: 'Inter';
-              font-style: normal;
-              font-weight: 400;
-              font-size: 16px;
-              line-height: 19px;
-
-              color: #FFFFFF;
-
-
-           }
-           .difficulties{
-            /* Сложности */
-
-                position: absolute;
-                width: 90px;
-                height: 19px;
-                left: 961px;
-                top: 44px;
-
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 19px;
-
-                color: #FFFFFF;
-
-
-           }
-           .mood{
-           /* Настроение */
-
-                position: absolute;
-                width: 95px;
-                height: 19px;
-                left: 1077px;
-                top: 44px;
-
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 19px;
-
-                color: #FFFFFF;
-
-
-
-           }
-           .contacts{
-            /* Контакты */
-
-                position: absolute;
-                width: 75px;
-                height: 19px;
-                left: 1198px;
-                top: 44px;
-
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 19px;
-
-                color: #FFFFFF;
-           }
-            .mary1{
-              /* Меня зовут Олег! */
-
-                    position: absolute;
-                    width: 317px;
-                    height: 44px;
-                    left: 165px;
-                    top: 200px;
-
-                    font-family: 'Inter';
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 36px;
-                    line-height: 44px;
-                    /* identical to box height */
-
-                    color: #004C93;
-
-
-            }
-            .mary2{
-              /* И я хочу обучиться программированию, потому что мне это жутко интересно! */
-
-                  position: absolute;
-                  width: 515px;
-                  height: 58px;
-                  left: 165px;
-                  top: 289px;
-
-                  font-family: 'Inter';
-                  font-style: italic;
-                  font-weight: 700;
-                  font-size: 24px;
-                  line-height: 29px;
-
-                  color: #004C93;
-
-
-            }
-
-            .mary3{
-              /* А еще я люблю музыку и погонять на велосипеде. */
-
-                  position: absolute;
-                  width: 515px;
-                  height: 58px;
-                  left: 165px;
-                  top: 392px;
-
-                  font-family: 'Inter';
-                  font-style: italic;
-                  font-weight: 700;
-                  font-size: 24px;
-                  line-height: 29px;
-
-                  color: #004C93;
-            }
-
-            .mary4{
-              /* oleg 1 */
-
-                position: absolute;
-                width: 565px;
-                height: 630px;
-                left: 710px;
-                top: 75px;
-
-                background: url(я.jpg);
-
-            }
-
-            .child2{/* Настроение */
-
-position: absolute;
-width: 220px;
-height: 44px;
-left: 165px;
-top: 2446px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 44px;
-/* identical to box height */
-
-color: #004C93;
-
-
-
-            }
-
-            .child3{
-              /* image 1 */
-
-position: absolute;
-width: 600px;
-height: 567px;
-left: 415px;
-top: 2500px;
-
-background: url(image_1.svg);
-
-            }
-
-        </style>
-    </head>
+<head>
+  <title>Обо мне</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="main.css">
+ 
+</head>
+
+<body>
+  <header class="parent" style="background-color: #004C93; height: 250px; height: 100px; ">
     
-    <body>
-        <header class="parent" style="background-color: #004C93; height: 250px; height: 100px; ">
-              <div class="name">Мария Катасонова<div>
-              <div class="about_me">Обо мне</div>
-              <div class="work">Моя деятельность</div>
-              <div class="calcul">Калькулятор</div>
-              <div class="difficulties">Сложности</div>
-              <div class="mood">Настроение</div>
-              <div class="contacts">Контакты</div>
-        </header>
-        
-
-        <div class="parent" style="background-color: #F5F5F5; height: 800px; ">
-          <div class="child" style="width: 50%;">
-            <div class="mary1"><p>Меня зовут Мария!</p></div>
-            <div class="mary2"><p>И я хочу обучиться программированию, потому что мне это жутко интересно!!!</p></div>
-            <div class="mary3"><p>А еще я люблю музыку и погонять на велосипеде.</p></div>
+      <div class="name" style=" top: 35px;">
+          <div style=" left: 40px; text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.38); font-size: 26px;">Мария Катасонова</div>
+        </div>
+          <div class="name" style="left: 200px; top: 0px;">
+                  <div class="about_me">Обо мне</div>
+                  <div class="work">Моя деятельность</div>
+                  <div class="calcul">Калькулятор</div>
+                  <div class="difficulties">Сложности</div>
+                  <div class="mood">Настроение</div>
+                  <div class="contacts">Контакты</div>
           </div>
+  </header>
 
-          <div class="child" style="width: 50%;" > <div class="mary4">  <img src="я.jpg" height="630px"; width="400px"; left="710px"; border-radius="0px";> </div></div>
+<main>
+  <div class="parent" style="background-color: #FFFFFF; height: 800px; ">
+    <div class="child" style="width: 50%;">
+      <div class="mary1">
+        <div ckass="mary_p" style="font-weight: 700;" >Меня зовут Мария!</div>
+      </div>
+      <div class="mary2">
+        <p>И я хочу обучиться программированию, потому что мне это жутко интересно!!!</p>
+      </div>
+      <div class="mary3">
+        <p>А еще я люблю музыку и погонять на велосипеде.</p>
+      </div>
+    </div>
 
-        </div>
+    <div class="child" style="width: 50%;">
+      <div class="mary4" style="top: 90px;"> <img src="image/я.jpg" height="600px" ; width="900px" ; border-radius="0px" ;> </div>
+    </div></div>
+
+  </div>
+
+  <div class="parent" style="background-color: #F3FBFF; display: flex; flex-direction: column; height: 800px; ">
+      <div class="child3" style="color: #004C93;"><p style="position: relative; left: 165px;">Моя деятельность</p></div>
+ 
+  </div>
+
+  <div class="parent" style="display: flex; flex-direction: column; background-color: #FFFFFF; height: 800px; ">
+    <div class="child3" style="color: #004C93;"><p style="position: relative; left: 165px;">Калькулятор</p></div>
+    <div class="calcul2" style="top: 50px;">
+			<form name="valu" >
+        <p>Введите первое число:</p>
+			<input class="size1" type="text" name="a"/><br>
+      <p>Выберите операцию:</p>
+			<select class="size" name="operator">
+			<option disabled>выбрать действие</option>
+			<option>/</option>
+			<option>*</option>
+			<option>-</option>
+			<option>+</option>
+			</select><br>
+      <p>Введите второе число:</p>
+			<input class="size2" type="text" name="b"/><br>
+			<button onClick="return fetchData(event);" class="size">Вычислить</button>
+			</form> 
+		</div>
+		<div class="resul">
+					Результат = <div class="showResult"></div>
+  </div>
+
+</div>
 
 
-        <div class="parent" style="background-color: #F3FBFF; display: flex; flex-direction: column; height: 800px; ">
-        </div>
+  <div class="parent" style="display: flex; flex-direction: column; background-color: #F3FBFF; height: 800px; ">
+    <div class="child3" style="color: #004C93;"><p style="position: relative; left: 165px;">Сложности</p></div>
+  </div>
 
-        <div class="parent" style="display: flex; flex-direction: column; background-color: #F5F5F5; height: 800px; " >
-        </div>
-
-        <div class="parent" style="display: flex; flex-direction: column; background-color: #F3FBFF; height: 800px; ">
-        </div>
-
-        <div class="parent" style="display: flex; flex-direction: column; background-color: #F5F5F5; height: 800px; ">
-          <div class="child2" style="width: 50%;">Настроение</div>
-          <div class="child3" style="width: 50%;"><img src="image_1.svg" height="630px"; width="400px"; left="710px"; border-radius="0px";></div>
-        </div>
-        
-        <footer class="parent" style="background-color: #004C93; height: 250px; height: 100px;">
-          <footer>
-            <span class="mary_footer"> Мария Катасонова </span>
-          </footer>
-        </footer>
-    </body>
+  <div class="parent2" style="display: flex; flex-direction: column; background-color: #FFFFFF; height: 800px; ">
+    <div class="child2" style="width: 50%;"> <p style="position: relative; left: 165px;">Настроение</p></div>
     
+    <div class="child3" style="width: 50%; left: 165px;"><div style="position: relative; left: 500px;"><img src="image/image_1.jpg" height="750px" ; width="1000px" ; left="810px" ;
+        border-radius="0px" ;></div></div>
+  </div>
+</main>
+
+  <footer class="parent" style="background-color: #004C93; height: 250px; height: 100px;">
+     <div class="mary_footer">
+          <div style="position: relative; left: 165px; top: 30px;">
+              <div> Мария Катасонова </div>
+              <div class="name2" style="left: 800px; top: 4px;">
+                    <div class="about_me2" style="top: 8px; position: relative;"><div style="top: 8px;">+7 902 670 7357</div></div>
+                    <div class="contacts" style="top: 0px; left: 570px;"><a href="https://vk.com/katasonova_masa"><img src="image/Vector.svg"></a></div>
+              </div>
+          </div>
+            </div>
+          </div>
+   </footer>
+</body>
+
 </html>

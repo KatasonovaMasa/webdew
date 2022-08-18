@@ -1,0 +1,326 @@
+.parent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+}
+.parent2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+}
+.name {
+  /* Олег Сосорев */
+
+  position: absolute;
+ 
+  height: 29px;
+  left: 165px;
+  top: 25px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  color: #ffffff;
+
+  
+}
+.name2{
+   position: absolute;
+ 
+   height: 150px;
+   left: 205px;
+   top: 3175px;
+ 
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 138px;
+   line-height: 29px;
+   
+   color: #ffffff;
+}
+.mary_footer{
+  /* Олег Сосорев */
+
+height: 29px;
+left: 165px;
+top: 3195px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+color: #fcfafa;
+
+
+}
+.about_me {
+  /* Обо мне */
+
+  position: absolute;
+  width: 68px;
+  height: 19px;
+  left: 600px;
+  top: 44px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 19px;
+  text-decoration-line: underline;
+
+  color: #ffffff;
+}
+.work {
+  /* Моя деятельность */
+
+  position: absolute;
+  width: 146px;
+  height: 19px;
+  left: 716px;
+  top: 44px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 19px;
+
+  color: #ffffff;
+
+
+
+}
+.calcul {
+  /* Калькулятор */
+
+  position: absolute;
+  width: 100px;
+  height: 19px;
+  left: 910px;
+  top: 44px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+.difficulties {
+  /* Сложности */
+
+  position: absolute;
+  width: 90px;
+  height: 19px;
+  left: 1055px;
+  top: 44px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+.mood {
+  /* Настроение */
+
+  position: absolute;
+  width: 95px;
+  height: 19px;
+  left: 1190px;
+  top: 44px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+.contacts {
+  /* Контакты */
+
+  position: absolute;
+  width: 75px;
+  height: 19px;
+  left: 1328px;
+  top: 44px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+.about_me2 {
+ /* +7 960 090 1108 */
+
+
+width: 168px;
+height: 19px;
+left: 420px;
+top: 44px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 19px;
+
+color: #FFFFFF;
+
+
+}
+.work2{
+    /* Моя деятельность */
+
+position: absolute;
+width: 339px;
+height: 44px;
+left: 165px;
+top: 864px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+color: #004C93;
+
+
+}
+.mary1 {
+  /* Меня зовут Олег! */
+
+  position: absolute;
+  width: 317px;
+  height: 44px;
+  left: 165px;
+  top: 230px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 44px;
+  /* identical to box height */
+
+  color: #004c93;
+}
+.mary_p{
+  font-weight: 500px;
+}
+.mary2 {
+  /* И я хочу обучиться программированию, потому что мне это жутко интересно! */
+
+  position: absolute;
+  width: 515px;
+  height: 58px;
+  left: 165px;
+  top: 289px;
+
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #004c93;
+}
+.mary3 {
+  /* А еще я люблю музыку и погонять на велосипеде. */
+
+  position: absolute;
+  width: 515px;
+  height: 58px;
+  left: 165px;
+  top: 392px;
+
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #004c93;
+}
+.mary4 {
+  /* oleg 1 */
+  justify-content: space-between;
+  position: absolute;
+  width: 350px;
+  height: 500px;
+  left: 680px;
+  top: 0px;
+
+  background: url(я.jpg);
+}
+.child2 {
+  /* Настроение */
+
+ 
+  width: 220px;
+  height: 44px;
+
+  top: 2446px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 44px;
+  /* identical to box height */
+
+  color: #004c93;
+}
+.child3 {
+  /* image 1 */
+
+
+  width: 600px;
+  height: 567px;
+  left: 415px;
+  top: 2500px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 44px;
+
+  background: url;
+}
+.child4 {
+  /* image 1 */
+
+  width: 600px;
+  height: 567px;
+  left: 415px;
+  top: 25000px;
+
+  background: url;
+}
