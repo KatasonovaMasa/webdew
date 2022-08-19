@@ -274,7 +274,7 @@ color: #004C93;
   position: absolute;
   width: 350px;
   height: 500px;
-  left: 680px;
+  left: 810px;
   top: 0px;
 
   background: url(я.jpg);
@@ -323,4 +323,63 @@ color: #004C93;
   top: 25000px;
 
   background: url;
+}
+.calcul2{
+   /* Калькул */
+
+   position: absolute;
+   width: 317px;
+   height: 44px;
+   left: 165px;
+ 
+ 
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 160%;
+   /* or 22px */
+      
+   color: #000000;
+   
+}
+button{
+  /* Rectangle 10 */
+
+position: absolute;
+width: 168px;
+height: 50px;
+left: 0px;
+
+
+background: #004C93;
+border-radius: 5px;
+
+}
+input{
+  /* Rectangle 7 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 555px;
+height: 32px;
+
+
+
+border: 1px solid #000000;
+
+}
+
+select{
+/* Rectangle 8 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 555px;
+height: 32px;
+
+border: 1px solid #000000;
+
 }

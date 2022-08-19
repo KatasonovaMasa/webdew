@@ -48,25 +48,25 @@
  
   </div>
 
-  <div class="parent" style="display: flex; flex-direction: column; background-color: #FFFFFF; height: 800px; ">
+  <div class="parent" style="display: flex; flex-direction: column; background-color: #FFFFFF; height: 560px; ">
     <div class="child3" style="color: #004C93;"><p style="position: relative; left: 165px;">Калькулятор</p></div>
-    <div class="calcul2" style="top: 50px;">
-			<form name="valu" >
-        <p>Введите первое число:</p>
-			<input class="size1" type="text" name="a"/><br>
+    <div class="calcul2" style="top: 120px;">
+      <form name="valu" >
+        <p style="top: 100px">Введите первое число:</p>
+			<input class="size1" type="text" name="a" top="60px"/><br>
       <p>Выберите операцию:</p>
-			<select class="size" name="operator">
-			<option disabled>выбрать действие</option>
+			<select class="size" name="operator" top="65px";>
+			<option disabled> </option>
 			<option>/</option>
 			<option>*</option>
 			<option>-</option>
 			<option>+</option>
 			</select><br>
       <p>Введите второе число:</p>
-			<input class="size2" type="text" name="b"/><br>
-			<button onClick="return fetchData(event);" class="size">Вычислить</button>
+			<input class="size2" type="text" name="b" top="70px"/><br>
+			<button onClick="return fetchData(event);" class="size" style="top: 285px; font-family: 'Roboto'; font-style: normal; font-weight: 400; font-size: 14px; line-height: 160%; color: #FFFFFF;">Вычислить</button>
 			</form> 
-		</div>
+   	</div>
 		<div class="resul">
 					Результат = <div class="showResult"></div>
   </div>
