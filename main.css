@@ -20,7 +20,7 @@
   /* Олег Сосорев */
 
   position: absolute;
- 
+
   height: 29px;
   left: 165px;
   top: 25px;
@@ -32,41 +32,37 @@
   line-height: 29px;
   /* identical to box height */
   color: #ffffff;
+}
+.name2 {
+  position: absolute;
 
-  
+  height: 150px;
+  left: 205px;
+  top: 3175px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 138px;
+  line-height: 29px;
+
+  color: #ffffff;
 }
-.name2{
-   position: absolute;
- 
-   height: 150px;
-   left: 205px;
-   top: 3175px;
- 
-   font-family: 'Inter';
-   font-style: normal;
-   font-weight: 700;
-   font-size: 138px;
-   line-height: 29px;
-   
-   color: #ffffff;
-}
-.mary_footer{
+.mary_footer {
   /* Олег Сосорев */
 
-height: 29px;
-left: 165px;
-top: 3195px;
+  height: 29px;
+  left: 165px;
+  top: 3195px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 29px;
-/* identical to box height */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
 
-color: #fcfafa;
-
-
+  color: #fcfafa;
 }
 .about_me {
   /* Обо мне */
@@ -102,9 +98,6 @@ color: #fcfafa;
   line-height: 19px;
 
   color: #ffffff;
-
-
-
 }
 .calcul {
   /* Калькулятор */
@@ -175,43 +168,38 @@ color: #fcfafa;
   color: #ffffff;
 }
 .about_me2 {
- /* +7 960 090 1108 */
+  /* +7 960 090 1108 */
 
+  width: 168px;
+  height: 19px;
+  left: 420px;
+  top: 44px;
 
-width: 168px;
-height: 19px;
-left: 420px;
-top: 44px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 19px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 19px;
-
-color: #FFFFFF;
-
-
+  color: #ffffff;
 }
-.work2{
-    /* Моя деятельность */
+.work2 {
+  /* Моя деятельность */
 
-position: absolute;
-width: 339px;
-height: 44px;
-left: 165px;
-top: 864px;
+  position: absolute;
+  width: 339px;
+  height: 44px;
+  left: 165px;
+  top: 864px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 44px;
-/* identical to box height */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
 
-color: #004C93;
-
-
+  color: #004c93;
 }
 .mary1 {
   /* Меня зовут Олег! */
@@ -231,7 +219,7 @@ color: #004C93;
 
   color: #004c93;
 }
-.mary_p{
+.mary_p {
   font-weight: 500px;
 }
 .mary2 {
@@ -282,7 +270,6 @@ color: #004C93;
 .child2 {
   /* Настроение */
 
- 
   width: 220px;
   height: 44px;
 
@@ -300,12 +287,11 @@ color: #004C93;
 .child3 {
   /* image 1 */
 
-
   width: 600px;
   height: 567px;
   left: 415px;
   top: 2500px;
-  
+
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
@@ -324,62 +310,206 @@ color: #004C93;
 
   background: url;
 }
-.calcul2{
-   /* Калькул */
+.calcul2 {
+  /* Калькул */
 
-   position: absolute;
-   width: 317px;
-   height: 44px;
-   left: 165px;
- 
- 
-   font-family: 'Roboto';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 14px;
-   line-height: 160%;
-   /* or 22px */
-      
-   color: #000000;
-   
+  position: absolute;
+  width: 317px;
+  height: 44px;
+  left: 165px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 22px */
+
+  color: #000000;
 }
-button{
+button {
   /* Rectangle 10 */
 
-position: absolute;
-width: 168px;
-height: 50px;
-left: 0px;
+  position: absolute;
+  width: 168px;
+  height: 50px;
+  left: 0px;
 
-
-background: #004C93;
-border-radius: 5px;
-
+  background: #004c93;
+  border-radius: 5px;
 }
-input{
+input {
   /* Rectangle 7 */
 
-box-sizing: border-box;
+  box-sizing: border-box;
 
-position: absolute;
-width: 555px;
-height: 32px;
+  position: absolute;
+  width: 555px;
+  height: 32px;
 
-
-
-border: 1px solid #000000;
-
+  border: 1px solid #000000;
 }
+select {
+  /* Rectangle 8 */
 
-select{
-/* Rectangle 8 */
+  box-sizing: border-box;
 
-box-sizing: border-box;
+  position: absolute;
+  width: 555px;
+  height: 32px;
 
-position: absolute;
-width: 555px;
-height: 32px;
+  border: 1px solid #000000;
+}
+.box {  
+  /* Rectangle 6 */
 
-border: 1px solid #000000;
+  box-sizing: border-box;
 
+  position: absolute;
+  width: 200px;
+  height: 289px;
+  left: 165px;
+  top: 100px; 
+  font-size: 18px;
+
+  border: 1px solid #004c93;
+  border-radius: 4px;
+}
+.box-title {
+  /* 1 */
+
+  position: absolute;
+  width: 55px;
+  height: 190px;
+  left: 20px;
+  top: 0px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 120px;
+  line-height: 160%;
+  /* or 192px */
+
+  color: #004c93;
+}
+.box-content {
+  /* Работаю в сфере разработки программного обеспечения */
+
+  position: absolute;
+  width: 175px;
+  height: 120px;
+  left: 20px;
+  top: 160px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  /* or 26px */
+
+  color: #2e4674;
+}
+.box2 {  
+  /* Rectangle 6 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 200px;
+  height: 289px;
+  left: 465px;
+  top: 400px; 
+  font-size: 18px;
+
+  border: 1px solid #004c93;
+  border-radius: 4px;
+}
+.box-title2 {
+  /* 1 */
+
+  position: absolute;
+  width: 55px;
+  height: 190px;
+  left: 20px;
+  top: 0px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 120px;
+  line-height: 160%;
+  /* or 192px */
+
+  color: #004c93;
+}
+.box-content2 {
+  /* Работаю в сфере разработки программного обеспечения */
+
+  position: absolute;
+  width: 175px;
+  height: 120px;
+  left: 20px;
+  top: 156px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  /* or 26px */
+
+  color: #2e4674;
+}
+.box3 {  
+  /* Rectangle 6 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 200px;
+  height: 289px;
+  left: 765px;
+  top: 1010px; 
+  font-size: 18px;
+
+  border: 1px solid #004c93;
+  border-radius: 4px;
+}
+.box-title3 {
+  /* 1 */
+
+  position: absolute;
+  width: 55px;
+  height: 190px;
+  left: 20px;
+  top: 0px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 120px;
+  line-height: 160%;
+  /* or 192px */
+
+  color: #004c93;
+}
+.box-content3 {
+  /* Работаю в сфере разработки программного обеспечения */
+
+  position: absolute;
+  width: 175px;
+  height: 120px;
+  left: 20px;
+  top: 156px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  /* or 26px */
+
+  color: #2e4674;
 }
