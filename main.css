@@ -513,3 +513,360 @@ select {
 
   color: #2e4674;
 }
+.box4 {  
+  /* Rectangle 6 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 200px;
+  height: 289px;
+  left: 1065px;
+  top: 1310px; 
+  font-size: 18px;
+
+  border: 1px solid #004c93;
+  border-radius: 4px;
+}
+.box-title4 {
+  /* 1 */
+
+  position: absolute;
+  width: 55px;
+  height: 190px;
+  left: 20px;
+  top: 0px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 120px;
+  line-height: 160%;
+  /* or 192px */
+
+  color: #004c93;
+}
+.box-content4 {
+  /* Работаю в сфере разработки программного обеспечения */
+
+  position: absolute;
+  width: 175px;
+  height: 120px;
+  left: 20px;
+  top: 160px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  /* or 26px */
+
+  color: #2e4674;
+}
+.box5 {  
+  /* Rectangle 6 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 200px;
+  height: 289px;
+  left: 1365px;
+  top: 1010px; 
+  font-size: 18px;
+
+  border: 1px solid #004c93;
+  border-radius: 4px;
+}
+.box-title5 {
+  /* 1 */
+
+  position: absolute;
+  width: 55px;
+  height: 190px;
+  left: 20px;
+  top: 0px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 120px;
+  line-height: 160%;
+  /* or 192px */
+
+  color: #004c93;
+}
+.box-content5 {
+  /* Работаю в сфере разработки программного обеспечения */
+
+  position: absolute;
+  width: 175px;
+  height: 120px;
+  left: 20px;
+  top: 160px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  /* or 26px */
+
+  color: #2e4674;
+}
+.box6 {  
+  /* Rectangle 6 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 200px;
+  height: 289px;
+  left: 165px;
+  top: 100px; 
+  font-size: 18px;
+
+  border: 1px solid #004c93;
+  border-radius: 4px;
+}
+.box-title6 {
+  /* 1 */
+
+  position: absolute;
+  width: 55px;
+  height: 190px;
+  left: 20px;
+  top: 0px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 120px;
+  line-height: 160%;
+  /* or 192px */
+
+  color: #004c93;
+}
+.box-content6 {
+  /* Работаю в сфере разработки программного обеспечения */
+
+  position: absolute;
+  width: 175px;
+  height: 120px;
+  left: 20px;
+  top: 160px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  /* or 26px */
+
+  color: #2e4674;
+}
+.box7 {  
+  /* Rectangle 6 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 200px;
+  height: 289px;
+  left: 465px;
+  top: 400px; 
+  font-size: 18px;
+
+  border: 1px solid #004c93;
+  border-radius: 4px;
+}
+.box-title7 {
+  /* 1 */
+
+  position: absolute;
+  width: 55px;
+  height: 190px;
+  left: 20px;
+  top: 0px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 120px;
+  line-height: 160%;
+  /* or 192px */
+
+  color: #004c93;
+}
+.box-content7 {
+  /* Работаю в сфере разработки программного обеспечения */
+
+  position: absolute;
+  width: 175px;
+  height: 120px;
+  left: 20px;
+  top: 156px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  /* or 26px */
+
+  color: #2e4674;
+}
+.box8 {  
+  /* Rectangle 6 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 200px;
+  height: 289px;
+  left: 765px;
+  top: 110px; 
+  font-size: 18px;
+
+  border: 1px solid #004c93;
+  border-radius: 4px;
+}
+.box-title8 {
+  /* 1 */
+
+  position: absolute;
+  width: 55px;
+  height: 190px;
+  left: 20px;
+  top: 0px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 120px;
+  line-height: 160%;
+  /* or 192px */
+
+  color: #004c93;
+}
+.box-content8 {
+  /* Работаю в сфере разработки программного обеспечения */
+
+  position: absolute;
+  width: 175px;
+  height: 120px;
+  left: 20px;
+  top: 156px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  /* or 26px */
+
+  color: #2e4674;
+}
+.box9 {  
+  /* Rectangle 6 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 200px;
+  height: 289px;
+  left: 1065px;
+  top: 410px; 
+  font-size: 18px;
+
+  border: 1px solid #004c93;
+  border-radius: 4px;
+}
+.box-title9 {
+  /* 1 */
+
+  position: absolute;
+  width: 55px;
+  height: 190px;
+  left: 20px;
+  top: 0px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 120px;
+  line-height: 160%;
+  /* or 192px */
+
+  color: #004c93;
+}
+.box-content9 {
+  /* Работаю в сфере разработки программного обеспечения */
+
+  position: absolute;
+  width: 175px;
+  height: 120px;
+  left: 20px;
+  top: 160px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  /* or 26px */
+
+  color: #2e4674;
+}
+.box10 {  
+  /* Rectangle 6 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 200px;
+  height: 289px;
+  left: 1365px;
+  top: 110px; 
+  font-size: 18px;
+
+  border: 1px solid #004c93;
+  border-radius: 4px;
+}
+.box-title10 {
+  /* 1 */
+
+  position: absolute;
+  width: 55px;
+  height: 190px;
+  left: 20px;
+  top: 0px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 120px;
+  line-height: 160%;
+  /* or 192px */
+
+  color: #004c93;
+}
+.box-content10 {
+  /* Работаю в сфере разработки программного обеспечения */
+
+  position: absolute;
+  width: 175px;
+  height: 120px;
+  left: 20px;
+  top: 160px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  /* or 26px */
+
+  color: #2e4674;
+}
