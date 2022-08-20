@@ -1,5 +1,4 @@
 <html>
-
 <head>
   <title>Обо мне</title>
   <meta charset="UTF-8" />
@@ -21,91 +20,75 @@
       return false;
     }
   </script>
-
 </head>
-
 <body>
-  <header class="parent" style="background-color: #004C93; height: 250px; height: 100px; ">
-
+  <header class="parent" style="background-color: #004C93; height: 250px; height: 100px;">
     <div class="name" style=" top: 35px;">
       <div style=" left: 40px; text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.38); font-size: 26px;">Мария Катасонова</div>
     </div>
-    <div class="name" style="left: 200px; top: 0px;">
-      <div class="about_me"><a href="about_me-id" style="color: #F3FBFF">Обо мне</a></div>
-      <div class="work"><a href="work" style="color: #F3FBFF">Моя деятельность</a></div>
-      <div class="calcul"><a href="calcul" style="color: #F3FBFF">Калькулятор</a></div>
-      <div class="difficulties"><a href="difficulties" style="color: #F3FBFF">Сложности</a></div>
-      <div class="mood"><a href="mood" style="color: #F3FBFF">Настроение</a></div>
-      <div class="contacts"><a href="contacts" style="color: #F3FBFF">Контакты</a></div>
-    </div>
+    <nav>
+      <div class="header"><a href="#about_me-id" style="position: relative; left: -400px; color: #F3FBFF">Обо мне</a>
+      </div>
+      <div class="header"><a href="#work"
+          style="position: relative; color: #F3FBFF; position: absolute; width: 146px; height: 19px; left: -280px;">Моя
+          деятельность</a></div>
+      <div class="header"><a href="#calcul" style="position: relative; left: -80px;color: #F3FBFF">Калькулятор</a></div>
+      <div class="header"><a href="#difficulties" style="position: relative; left: 80px; color: #F3FBFF">Сложности</a>
+      </div>
+      <div class="header"><a href="#mood" style="position: relative; left: 240px; color: #F3FBFF">Настроение</a></div>
+      <div class="header"><a href="#contacts" style="position: relative; left: 400px; color: #F3FBFF">Контакты</a></div>
+    </nav>
   </header>
-
   <main>
-    <div class="parent" style="background-color: #FFFFFF; height: 800px; ">
-      <div class="child" style="width: 50%;">
-        <div class="mary1" >
-          <div ckass="mary_p" style="font-weight: 700; " id="about_me-id">Меня зовут Мария!</div>
+    <div class="parent" style="height: 560px;">
+      <div class="child" style="width: 50%;"><a name="about_me-id"></a>
+        <div class="mary">
+          <div style="position: absolute; font-family: 'Inter'; font-style: fantasy; font-size: 36px; line-height: 44px;">Меня зовут Мария!</div>
         </div>
         <div class="mary2">
           <p>И я хочу обучиться программированию, потому что мне это жутко интересно!!!</p>
         </div>
-        <div class="mary3">
+        <div class="mary2" style=" top: 280px;">
           <p>А еще я люблю музыку и погонять на велосипеде.</p>
         </div>
       </div>
-
-      <div class="child" style="width: 50%;">
-        <div class="mary4" style="top: 90px;"> <img src="image/я.jpg" height="600px" ; width="900px" ;
-            border-radius="0px" ;> </div>
+      <div class="child" style="width: 50%">
+        <div class="mary4" style="top: 50px;"><img src="image/я.jpg" height="450px" ; width="700px" ;
+            border-radius="0px" ;></div>
       </div>
     </div>
-
-    </div>
-
-    <div class="parent" style="background-color: #F3FBFF; display: flex; flex-direction: column; height: 800px; " >
-      <div class="child3" style="color: #004C93;" id="work">
-        <p style="position: relative; left: 165px;" >Моя деятельность</p>
-
-        <div class="box">
+    <div class="parent" style="background-color: #F3FBFF; display: flex; flex-direction: column; height: 800px;">
+      <div class="child" style="width: 600px; height: 567px; left: 415px; top: 2500px;"><a name="work"></a>
+        <p style="position: relative; left: 165px;">Моя деятельность</p>
+        <div class="box" style="left: 165px; top: 100px;">
           <div class="box-title">1</div>
           <div class="box-content">Работаю в сфере тестирования программного обеспечения</div>
         </div>
+        <div class="box" style="left: 465px; top: 400px;">
+          <div class="box-title">2</div>
+          <div class="box-content">Люблю собирать кубики рубики, дошла до кубика 7*7</div>
+        </div>
+        <div class="box" style="left: 765px; top: 110px;">
+          <div class="box-title">3</div>
+          <div class="box-content">Прохожу курсы по скорочтению</div>
+        </div>
+        <div class="box" style="left: 1065px; top: 410px;">
+          <div class="box-title">4</div>
+          <div class="box-content">Провожу 3-й раз курс по разработке программного обеспечения</div>
+        </div>
+        <div class="box" style="left: 1365px; top: 110px;">
+          <div class="box-title">5</div>
+          <div class="box-content">Читаю книги и катаюсь на велосипеде</div>
+        </div>
       </div>
-
-      <div class="box2">
-        <div class="box-title2">2</div>
-        <div class="box-content2">Люблю собирать кубики рубики, дошла до кубика 7*7</div>
-      </div>
     </div>
-
-    <div class="box3">
-      <div class="box-title3">3</div>
-      <div class="box-content3">Прохожу курсы по скорочтению</div>
-    </div>
-  </div>
-
-  <div class="box4">
-    <div class="box-title4">4</div>
-    <div class="box-content4">Провожу 3-й раз курс по разработке программного обеспечения</div>
-  </div>
-</div>
-
-<div class="box5">
-  <div class="box-title5">5</div>
-  <div class="box-content5">Читаю книги и катаюсь на велосипеде</div>
-</div>
-</div>
-
-    </div>
-    </div>
-
-    <div class="parent" style="display: flex; flex-direction: column; background-color: #FFFFFF; height: 560px; ">
-      <div class="child3" style="color: #004C93;" id="calcul">
+    <div class="parent" style="display: flex; flex-direction: column; height: 560px;">
+      <div class="child" style="width: 600px; height: 567px; left: 415px; top: 2500px;"><a name="calcul"></a>
         <p style="position: relative; left: 165px;">Калькулятор</p>
       </div>
-      <div class="calcul2" style="top: 110px;">
+      <div class="calcul" style="left: 165px;">
         <form name="valu">
-          <p style="top: 100px; font-size: 18px;">Введите первое число:</p>
+          <p style="font-size: 18px;">Введите первое число:</p>
           <input class="size1" type="number" name="a" top="60px" /><br>
           <p style="font-size: 18px;">Выберите операцию:</p>
           <select class="size" name="operator" top="65px" ;>
@@ -117,15 +100,11 @@
           </select><br>
           <p style="font-size: 18px;">Введите второе число:</p>
           <input class="size2" type="number" name="b" top="70px" /><br>
-          <button onClick="return fetchData(event);" class="size"
-            style="top: 295px; font-family: 'Roboto'; font-style: normal; font-weight: 400; font-size: 14px; line-height: 160%; color: #FFFFFF;">Вычислить</button>
+          <button onClick="return fetchData(event);" class="size">Вычислить</button>
         </form>
       </div>
-
-
-      <div class="child" style="width: 50%;">
-        <div class="mary4" style="top: 140px; left: 1025px;  ">
-
+      <div class="child" style="width: 50%">
+        <div class="mary4" style="top: 140px; left: 1025px;">
           <div class="resul" style="font-size: 18px; background-image: url(/image/calc.jpg)">
             Результат = <div class="showResult"></div>
           </div>
@@ -133,70 +112,53 @@
         </div>
       </div>
     </div>
-
-    </div>
-
-
-    <div class="parent" style="display: flex; flex-direction: column; background-color: #F3FBFF; height: 800px; ">
-      <div class="child3" style="color: #004C93;" id="difficulties">
+    <div class="parent" style="display: flex; flex-direction: column; background-color: #F3FBFF; height: 800px;">
+      <div class="child" style="width: 600px; height: 567px; left: 415px; top: 2500px;"><a name="difficulties"></a>
         <p style="position: relative; left: 165px;">Сложности</p>
-        <div class="box6">
-          <div class="box-title6">1</div>
-          <div class="box-content6">Как работает клиент-серверное взаимодействие?</div>
+        <div class="box" style="left: 165px; top: 100px;">
+          <div class="box-title">1</div>
+          <div class="box-content">Как работает клиент-серверное взаимодействие?</div>
         </div>
-     
-
-      <div class="box7">
-        <div class="box-title7">2</div>
-        <div class="box-content7">Не понимаю, почему не работает калькулятор?</div>
-      </div>
-   
-
-    <div class="box8">
-      <div class="box-title8">3</div>
-      <div class="box-content8">Наворотила divОВ, что меня саму от них тошнит</div>
-    </div>
-
-
-  <div class="box9">
-    <div class="box-title9">4</div>
-    <div class="box-content9">Как наследуются классы и работают функции-я всё позабывала?</div>
-  </div>
-
-
-<div class="box10">
-  <div class="box-title10">5</div>
-  <div class="box-content10">Я слишком стара, для всего этого дерьма</div>
-</div>
-
+        <div class="box" style="left: 465px; top: 400px;">
+          <div class="box-title">2</div>
+          <div class="box-content">Не понимаю, почему не работает калькулятор?</div>
+        </div>
+        <div class="box" style="left: 765px; top: 110px;">
+          <div class="box-title">3</div>
+          <div class="box-content">Наворотила divОВ, что меня саму от них тошнит</div>
+        </div>
+        <div class="box" style="left: 1065px; top: 410px;">
+          <div class="box-title">4</div>
+          <div class="box-content">Как наследуются классы и работают функции-я всё позабывала?</div>
+        </div>
+        <div class="box" style="left: 1365px; top: 110px;">
+          <div class="box-title">5</div>
+          <div class="box-content">Я слишком стара, для всего этого дерьма</div>
+        </div>
       </div>
     </div>
-
-    <div class="parent2" style="display: flex; flex-direction: column; background-color: #FFFFFF; height: 800px; ">
-      <div class="child2" style="width: 50%;" id="mood">
+    <div class="parent" style="display: flex; flex-direction: column; height: 800px;">
+      <div class="child" style="width: 50%;"><a name="mood"></a>
         <p style="position: relative; left: 165px;">Настроение</p>
       </div>
-
-      <div class="child3" style="width: 50%; left: 165px;">
+      <div class="child" style="width: 600px; height: 567px; top: 2500px; width: 50%; left: 165px;">
         <div style="position: relative; left: 500px;"><img src="image/image_1.jpg" height="750px" ; width="1000px" ;
             left="810px" ; border-radius="0px" ;></div>
       </div>
     </div>
   </main>
-
   <footer class="parent" style="background-color: #004C93; height: 250px; height: 100px;">
-    <div class="mary_footer">
+    <div class="mary_footer"><a name="contacts"></a>
       <div style="position: relative; left: 165px; top: 30px;">
-        <div id="contacts"> Мария Катасонова </div>
-        <div class="name2" style="left: 800px; top: 4px;">
-          <div class="about_me2" style="top: 8px; position: relative;">
-            <div style="top: 8px;">+7 902 670 7357</div>
+        <div> Мария Катасонова</div>
+        <div class="name2" style="left: 1300px; top: 8px;">
+          <div class="about_me2">+7 902 670 7357</div>
+          <div style="position: relative; left: 150px; top: -24px;"><a href="https://vk.com/katasonova_masa"><img
+                src="image/Vector.svg"></a>
           </div>
-          <div class="contacts" style="top: 0px; left: 570px;"><a href="https://vk.com/katasonova_masa"><img
-                src="image/Vector.svg"></a></div>
+
         </div>
       </div>
-    </div>
     </div>
   </footer>
 </body>

@@ -1,172 +1,3 @@
-.parent {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  height: 250px;
-  height: 100px;
-  left: 0px;
-  top: 0px;
-}
-.parent2 {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  height: 250px;
-  height: 100px;
-  left: 0px;
-  top: 0px;
-}
-.name {
-  /* Олег Сосорев */
-
-  position: absolute;
-
-  height: 29px;
-  left: 165px;
-  top: 25px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
-  /* identical to box height */
-  color: #ffffff;
-}
-.name2 {
-  position: absolute;
-
-  height: 150px;
-  left: 205px;
-  top: 3175px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 138px;
-  line-height: 29px;
-
-  color: #ffffff;
-}
-.mary_footer {
-  /* Олег Сосорев */
-
-  height: 29px;
-  left: 165px;
-  top: 3195px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
-  /* identical to box height */
-
-  color: #fcfafa;
-}
-.about_me {
-  /* Обо мне */
-
-  position: absolute;
-  width: 68px;
-  height: 19px;
-  left: 600px;
-  top: 44px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 19px;
-  text-decoration-line: underline;
-
-  color: #ffffff;
-}
-.work {
-  /* Моя деятельность */
-
-  position: absolute;
-  width: 146px;
-  height: 19px;
-  left: 716px;
-  top: 44px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 19px;
-
-  color: #ffffff;
-}
-.calcul {
-  /* Калькулятор */
-
-  position: absolute;
-  width: 100px;
-  height: 19px;
-  left: 910px;
-  top: 44px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 19px;
-
-  color: #ffffff;
-}
-.difficulties {
-  /* Сложности */
-
-  position: absolute;
-  width: 90px;
-  height: 19px;
-  left: 1055px;
-  top: 44px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 19px;
-
-  color: #ffffff;
-}
-.mood {
-  /* Настроение */
-
-  position: absolute;
-  width: 95px;
-  height: 19px;
-  left: 1190px;
-  top: 44px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 19px;
-
-  color: #ffffff;
-}
-.contacts {
-  /* Контакты */
-
-  position: absolute;
-  width: 75px;
-  height: 19px;
-  left: 1328px;
-  top: 44px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 19px;
-
-  color: #ffffff;
-}
 .about_me2 {
   /* +7 960 090 1108 */
 
@@ -183,194 +14,14 @@
 
   color: #ffffff;
 }
-.work2 {
-  /* Моя деятельность */
-
-  position: absolute;
-  width: 339px;
-  height: 44px;
-  left: 165px;
-  top: 864px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 44px;
-  /* identical to box height */
-
-  color: #004c93;
-}
-.mary1 {
-  /* Меня зовут Олег! */
-
-  position: absolute;
-  width: 317px;
-  height: 44px;
-  left: 165px;
-  top: 230px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 35px;
-  line-height: 44px;
-  /* identical to box height */
-
-  color: #004c93;
-}
-.mary_p {
-  font-weight: 500px;
-}
-.mary2 {
-  /* И я хочу обучиться программированию, потому что мне это жутко интересно! */
-
-  position: absolute;
-  width: 515px;
-  height: 58px;
-  left: 165px;
-  top: 289px;
-
-  font-family: 'Inter';
-  font-style: italic;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
-
-  color: #004c93;
-}
-.mary3 {
-  /* А еще я люблю музыку и погонять на велосипеде. */
-
-  position: absolute;
-  width: 515px;
-  height: 58px;
-  left: 165px;
-  top: 392px;
-
-  font-family: 'Inter';
-  font-style: italic;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
-
-  color: #004c93;
-}
-.mary4 {
-  /* oleg 1 */
-  justify-content: space-between;
-  position: absolute;
-  width: 350px;
-  height: 500px;
-  left: 810px;
-  top: 0px;
-
-  background: url(я.jpg);
-}
-.child2 {
-  /* Настроение */
-
-  width: 220px;
-  height: 44px;
-
-  top: 2446px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 35px;
-  line-height: 44px;
-  /* identical to box height */
-
-  color: #004c93;
-}
-.child3 {
-  /* image 1 */
-
-  width: 600px;
-  height: 567px;
-  left: 415px;
-  top: 2500px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 35px;
-  line-height: 44px;
-
-  background: url;
-}
-.child4 {
-  /* image 1 */
-
-  width: 600px;
-  height: 567px;
-  left: 415px;
-  top: 25000px;
-
-  background: url;
-}
-.calcul2 {
-  /* Калькул */
-
-  position: absolute;
-  width: 317px;
-  height: 44px;
-  left: 165px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 160%;
-  /* or 22px */
-
-  color: #000000;
-}
-button {
-  /* Rectangle 10 */
-
-  position: absolute;
-  width: 168px;
-  height: 50px;
-  left: 0px;
-
-  background: #004c93;
-  border-radius: 5px;
-}
-input {
-  /* Rectangle 7 */
-
-  box-sizing: border-box;
-
-  position: absolute;
-  width: 555px;
-  height: 32px;
-
-  border: 1px solid #000000;
-}
-select {
-  /* Rectangle 8 */
-
-  box-sizing: border-box;
-
-  position: absolute;
-  width: 555px;
-  height: 32px;
-
-  border: 1px solid #000000;
-}
 .box {  
   /* Rectangle 6 */
 
   box-sizing: border-box;
-
   position: absolute;
   width: 200px;
   height: 289px;
-  left: 165px;
-  top: 100px; 
-  font-size: 18px;
+   font-size: 18px;
 
   border: 1px solid #004c93;
   border-radius: 4px;
@@ -411,462 +62,208 @@ select {
 
   color: #2e4674;
 }
-.box2 {  
-  /* Rectangle 6 */
-
-  box-sizing: border-box;
+button {
+  /* Rectangle 10 */
 
   position: absolute;
-  width: 200px;
-  height: 289px;
-  left: 465px;
-  top: 400px; 
-  font-size: 18px;
+  width: 168px;
+  height: 50px;
+  left: 0px;
 
-  border: 1px solid #004c93;
-  border-radius: 4px;
+  background: #004c93;
+  border-radius: 5px;
+  top: 395px; 
+  
+  font-family: 'Roboto'; 
+  font-style: normal; 
+  font-weight: 400; 
+  font-size: 14px; 
+  line-height: 160%; 
+  color: #FFFFFF;
 }
-.box-title2 {
-  /* 1 */
+.calcul {
+  /* Калькулятор */
 
   position: absolute;
-  width: 55px;
-  height: 190px;
-  left: 20px;
-  top: 0px;
+  width: 100px;
+  height: 19px;
+  left: 910px;
+  top: 44px;
 
-  font-family: 'Roboto';
+  font-family: 'Inter';
   font-style: normal;
-  font-weight: 900;
-  font-size: 120px;
-  line-height: 160%;
-  /* or 192px */
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+.child {
+  width: 220px;
+  height: 44px;
+  top: 2446px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 44px;
+  /* identical to box height */
 
   color: #004c93;
 }
-.box-content2 {
-  /* Работаю в сфере разработки программного обеспечения */
+.header {
+  /* Сложности */
 
   position: absolute;
-  width: 175px;
-  height: 120px;
-  left: 20px;
-  top: 156px;
+  width: 90px;
+  height: 19px;
+  left: 1055px;
+  top: 44px;
 
-  font-family: 'Roboto';
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 160%;
-  /* or 26px */
-
-  color: #2e4674;
-}
-.box3 {  
-  /* Rectangle 6 */
-
-  box-sizing: border-box;
-
-  position: absolute;
-  width: 200px;
-  height: 289px;
-  left: 765px;
-  top: 1010px; 
   font-size: 18px;
+  line-height: 19px;
 
-  border: 1px solid #004c93;
-  border-radius: 4px;
+  color: #F3FBFF;
 }
-.box-title3 {
-  /* 1 */
-
-  position: absolute;
-  width: 55px;
-  height: 190px;
-  left: 20px;
-  top: 0px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 900;
-  font-size: 120px;
-  line-height: 160%;
-  /* or 192px */
-
-  color: #004c93;
-}
-.box-content3 {
-  /* Работаю в сфере разработки программного обеспечения */
-
-  position: absolute;
-  width: 175px;
-  height: 120px;
-  left: 20px;
-  top: 156px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 160%;
-  /* or 26px */
-
-  color: #2e4674;
-}
-.box4 {  
-  /* Rectangle 6 */
+input {
+  /* Rectangle 7 */
 
   box-sizing: border-box;
 
   position: absolute;
-  width: 200px;
-  height: 289px;
-  left: 1065px;
-  top: 1310px; 
-  font-size: 18px;
+  width: 555px;
+  height: 32px;
 
-  border: 1px solid #004c93;
-  border-radius: 4px;
+  border: 1px solid #000000;
 }
-.box-title4 {
-  /* 1 */
-
-  position: absolute;
-  width: 55px;
-  height: 190px;
-  left: 20px;
-  top: 0px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 900;
-  font-size: 120px;
-  line-height: 160%;
-  /* or 192px */
-
-  color: #004c93;
-}
-.box-content4 {
-  /* Работаю в сфере разработки программного обеспечения */
-
-  position: absolute;
-  width: 175px;
-  height: 120px;
-  left: 20px;
-  top: 160px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 160%;
-  /* or 26px */
-
-  color: #2e4674;
-}
-.box5 {  
-  /* Rectangle 6 */
-
-  box-sizing: border-box;
-
-  position: absolute;
-  width: 200px;
-  height: 289px;
-  left: 1365px;
-  top: 1010px; 
-  font-size: 18px;
-
-  border: 1px solid #004c93;
-  border-radius: 4px;
-}
-.box-title5 {
-  /* 1 */
-
-  position: absolute;
-  width: 55px;
-  height: 190px;
-  left: 20px;
-  top: 0px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 900;
-  font-size: 120px;
-  line-height: 160%;
-  /* or 192px */
-
-  color: #004c93;
-}
-.box-content5 {
-  /* Работаю в сфере разработки программного обеспечения */
-
-  position: absolute;
-  width: 175px;
-  height: 120px;
-  left: 20px;
-  top: 160px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 160%;
-  /* or 26px */
-
-  color: #2e4674;
-}
-.box6 {  
-  /* Rectangle 6 */
-
-  box-sizing: border-box;
-
-  position: absolute;
-  width: 200px;
-  height: 289px;
+.mary_footer {
+  /* Олег Сосорев */
+  height: 29px;
   left: 165px;
-  top: 100px; 
-  font-size: 18px;
+  top: 3185px;
 
-  border: 1px solid #004c93;
-  border-radius: 4px;
-}
-.box-title6 {
-  /* 1 */
-
-  position: absolute;
-  width: 55px;
-  height: 190px;
-  left: 20px;
-  top: 0px;
-
-  font-family: 'Roboto';
+  font-family: 'Inter';
   font-style: normal;
-  font-weight: 900;
-  font-size: 120px;
-  line-height: 160%;
-  /* or 192px */
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
 
-  color: #004c93;
+  color: #fcfafa;
 }
-.box-content6 {
-  /* Работаю в сфере разработки программного обеспечения */
+.mary {
+  /* Меня зовут Олег! */
 
   position: absolute;
-  width: 175px;
-  height: 120px;
-  left: 20px;
+  width: 317px;
+  height: 44px;
+  left: 165px;
   top: 160px;
 
-  font-family: 'Roboto';
+  font-family: 'Inter';
   font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 160%;
-  /* or 26px */
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 44px;
+  /* identical to box height */
 
-  color: #2e4674;
+  color: #004c93;
 }
-.box7 {  
-  /* Rectangle 6 */
+.mary2 {
+  /* И я хочу обучиться программированию, потому что мне это жутко интересно! */
+
+  position: absolute;
+  width: 515px;
+  height: 58px;
+  left: 165px;
+  top: 200px;
+
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #004c93;
+}
+.mary4 {
+  /* oleg 1 */
+  justify-content: space-between;
+  position: absolute;
+  width: 350px;
+  height: 500px;
+  left: 810px;
+  top: 0px;
+}
+.name {
+  /* Олег Сосорев */
+  position: absolute;
+  height: 29px;
+  left: 165px;
+  top: 25px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  color: #ffffff;
+}
+.name2 {
+  position: absolute;
+
+  height: 150px;
+  left: 205px;
+  top: 3175px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 138px;
+  line-height: 29px;
+
+  color: #ffffff;
+}
+.parent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+}
+select {
+  /* Rectangle 8 */
 
   box-sizing: border-box;
 
   position: absolute;
-  width: 200px;
-  height: 289px;
-  left: 465px;
-  top: 400px; 
-  font-size: 18px;
+  width: 555px;
+  height: 32px;
 
-  border: 1px solid #004c93;
-  border-radius: 4px;
+  border: 1px solid #000000;
 }
-.box-title7 {
-  /* 1 */
+.work2 {
+  /* Моя деятельность */
 
   position: absolute;
-  width: 55px;
-  height: 190px;
-  left: 20px;
-  top: 0px;
+  width: 339px;
+  height: 44px;
+  left: 165px;
+  top: 864px;
 
-  font-family: 'Roboto';
+  font-family: 'Inter';
   font-style: normal;
-  font-weight: 900;
-  font-size: 120px;
-  line-height: 160%;
-  /* or 192px */
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
 
   color: #004c93;
-}
-.box-content7 {
-  /* Работаю в сфере разработки программного обеспечения */
-
-  position: absolute;
-  width: 175px;
-  height: 120px;
-  left: 20px;
-  top: 156px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 160%;
-  /* or 26px */
-
-  color: #2e4674;
-}
-.box8 {  
-  /* Rectangle 6 */
-
-  box-sizing: border-box;
-
-  position: absolute;
-  width: 200px;
-  height: 289px;
-  left: 765px;
-  top: 110px; 
-  font-size: 18px;
-
-  border: 1px solid #004c93;
-  border-radius: 4px;
-}
-.box-title8 {
-  /* 1 */
-
-  position: absolute;
-  width: 55px;
-  height: 190px;
-  left: 20px;
-  top: 0px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 900;
-  font-size: 120px;
-  line-height: 160%;
-  /* or 192px */
-
-  color: #004c93;
-}
-.box-content8 {
-  /* Работаю в сфере разработки программного обеспечения */
-
-  position: absolute;
-  width: 175px;
-  height: 120px;
-  left: 20px;
-  top: 156px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 160%;
-  /* or 26px */
-
-  color: #2e4674;
-}
-.box9 {  
-  /* Rectangle 6 */
-
-  box-sizing: border-box;
-
-  position: absolute;
-  width: 200px;
-  height: 289px;
-  left: 1065px;
-  top: 410px; 
-  font-size: 18px;
-
-  border: 1px solid #004c93;
-  border-radius: 4px;
-}
-.box-title9 {
-  /* 1 */
-
-  position: absolute;
-  width: 55px;
-  height: 190px;
-  left: 20px;
-  top: 0px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 900;
-  font-size: 120px;
-  line-height: 160%;
-  /* or 192px */
-
-  color: #004c93;
-}
-.box-content9 {
-  /* Работаю в сфере разработки программного обеспечения */
-
-  position: absolute;
-  width: 175px;
-  height: 120px;
-  left: 20px;
-  top: 160px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 160%;
-  /* or 26px */
-
-  color: #2e4674;
-}
-.box10 {  
-  /* Rectangle 6 */
-
-  box-sizing: border-box;
-
-  position: absolute;
-  width: 200px;
-  height: 289px;
-  left: 1365px;
-  top: 110px; 
-  font-size: 18px;
-
-  border: 1px solid #004c93;
-  border-radius: 4px;
-}
-.box-title10 {
-  /* 1 */
-
-  position: absolute;
-  width: 55px;
-  height: 190px;
-  left: 20px;
-  top: 0px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 900;
-  font-size: 120px;
-  line-height: 160%;
-  /* or 192px */
-
-  color: #004c93;
-}
-.box-content10 {
-  /* Работаю в сфере разработки программного обеспечения */
-
-  position: absolute;
-  width: 175px;
-  height: 120px;
-  left: 20px;
-  top: 160px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 160%;
-  /* or 26px */
-
-  color: #2e4674;
 }
