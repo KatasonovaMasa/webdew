@@ -1,7 +1,13 @@
 <html>
 <head>
   <title>Обо мне</title>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic|Playfair+Display:400,700&subset=latin,cyrillic">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="main.css">
   <script>
     function fetchData(event) {
@@ -23,7 +29,7 @@
 </head>
 <body>
   <header class="parent" style="background-color: #004C93; height: 250px; height: 100px;">
-    <div class="name" style=" top: 35px;">
+    <div class="name" style="top: 35px;">
       <div style=" left: 40px; text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.38); font-size: 26px;">Мария Катасонова</div>
     </div>
     <nav>
@@ -86,20 +92,20 @@
       <div class="child" style="width: 600px; height: 567px; left: 415px; top: 2500px;"><a name="calcul"></a>
         <p style="position: relative; left: 165px;">Калькулятор</p>
       </div>
-      <div class="calcul" style="left: 165px;">
+      <div class="calcul" style="left: 165px; top: 100px;">
         <form name="valu">
-          <p style="font-size: 18px;">Введите первое число:</p>
-          <input class="size1" type="number" name="a" top="60px" /><br>
-          <p style="font-size: 18px;">Выберите операцию:</p>
-          <select class="size" name="operator" top="65px" ;>
+          <p style="font-size: 18px; position: relative; width: 600px; top: 2px; color: #000000;">Введите первое число:</p>
+          <input class="size1" type="number" name="a"/><br>
+          <p style="font-size: 18px;  position: relative; width: 600px; top: 2px; color: #000000;">Выберите операцию:</p>
+          <select class="size" name="operator";>
             <option disabled> </option>
             <option>/</option>
             <option>*</option>
             <option>-</option>
             <option>+</option>
           </select><br>
-          <p style="font-size: 18px;">Введите второе число:</p>
-          <input class="size2" type="number" name="b" top="70px" /><br>
+          <p style="font-size: 18px;  position: relative; width: 600px; top: 2px; color: #000000;">Введите второе число:</p>
+          <input class="size2" type="number" name="b"/><br>
           <button onClick="return fetchData(event);" class="size">Вычислить</button>
         </form>
       </div>
@@ -125,7 +131,7 @@
         </div>
         <div class="box" style="left: 765px; top: 110px;">
           <div class="box-title">3</div>
-          <div class="box-content">Наворотила divОВ, что меня саму от них тошнит</div>
+          <div class="box-content">Не понимаю, почему "position: fixed" работает неверно?</div>
         </div>
         <div class="box" style="left: 1065px; top: 410px;">
           <div class="box-title">4</div>
