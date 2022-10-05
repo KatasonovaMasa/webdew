@@ -65,7 +65,7 @@
 button {
   /* Rectangle 10 */
 
-  position: absolute;
+  /*position: absolute;*/
   width: 168px;
   height: 50px;
   left: 0px;
@@ -303,7 +303,6 @@ padding-left:30px;
 padding-right: 50px;
 border-radius: 10px;
 cursor: pointer;
-margin-left: 1050px;
 margin-top: -70px;
 
 }
