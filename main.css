@@ -140,6 +140,14 @@ input {
 
   border: 1px solid #000000;
 }
+.mask{
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.7);
+}
 .mary_footer {
   /* Олег Сосорев */
   height: 29px;
@@ -238,6 +246,10 @@ input {
   left: 0px;
   top: 0px;
 }
+.result{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 select {
   /* Rectangle 8 */
 
@@ -248,6 +260,14 @@ select {
   height: 32px;
 
   border: 1px solid #000000;
+}
+.window {
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #ffffff;
 }
 .work2 {
   /* Моя деятельность */
@@ -266,4 +286,27 @@ select {
   /* identical to box height */
 
   color: #004c93;
+}
+.finish{
+  text-align: right;
+  /*margin-top: 20px;*/
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+.finish > button{
+color: #ffffff;
+border: none;
+background: #0288d1;
+padding-top: 0px;
+padding-bottom: 10px;
+padding-left:30px;
+padding-right: 50px;
+border-radius: 10px;
+cursor: pointer;
+margin-left: 1050px;
+margin-top: -70px;
+
+}
+.finish > button:hover{
+  background-color: blue;
 }
