@@ -1,34 +1,113 @@
-.about_me {
-  /* +7 960 090 1108 */
 
-  width: 168px;
-  height: 19px;
-  left: 420px;
-  top: 44px;
-
+nav {
+  background: #004C93;
+  overflow: hidden;
+  top: 0;
+  position: fixed; /* Set the navbar to fixed position */
+  width: 100%; /* Full width */
+}
+.right_name{
+  width: auto;
+  font-size: 24px;
+  font-weight: 700;
+  color:white;
+}
+a{
+  color:white;
+  text-decoration: none;
+}
+ul.left_name{
+  list-style: none;
+  display: flex;
+  width: auto;
+  gap: 16px;
+ 
+}
+.left_name{
+  font-size: 16px;
+  font-weight: 400px;
+  margin-right: 5%;
+}
+.headers {
+  position: flex;
+  justify-content: space-between;
+  padding: 24px 0;
+  align-items: baseline;
+  margin-left: 5%;
+}
+.up{
+  position: fixed;
+}
+.aboutme {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.child{
+  width: 50%;
+  height: 50%;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 4%;
+  height: 50%;
+}
+.about1{
+  margin-top: 5%;
+  margin-bottom: 2%;
   font-family: 'Inter';
   font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 19px;
-
-  color: #ffffff;
+  font-size: 35px;
+  line-height: 44px;
+  color: #004c93;
+  flex-wrap: nowrap;
+}
+.about2 {
+  height:400px;
+  width: 600px;
+  background: grey;
+  margin-right: 15%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  border-radius:0px;
+  flex-wrap: nowrap;
+}
+.mework{
+  display: flex;
+  flex-flow: row nowrap;
+  background: #F1F9FE;;
+  width: 100%;
+  height: 70%;
+  margin-bottom: 5%;
+}
+.child1 {
+  width: 50%;
+  height: 50%;
+  margin-top: 2%;
+  margin-left: 5%;
+  height: 50%;
+  
+}
+.section_title > a{
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 36px;
+  line-height: 44px;
+  color: #004c93;
+  font-weight: 700;
+  text-decoration: none;
 }
 .box {  
-  /* Rectangle 6 */
-
-  box-sizing: border-box;
+  margin-top: 5%;
+  margin-right: 15%;
   position: absolute;
-  width: 200px;
-  height: 289px;
-   font-size: 18px;
-
+  width: 15%;
+  height: 30%;
+  font-size: 18px;
   border: 1px solid #004c93;
   border-radius: 4px;
 }
 .box-title {
-  /* 1 */
-
   position: absolute;
   width: 55px;
   height: 190px;
@@ -40,13 +119,9 @@
   font-weight: 900;
   font-size: 120px;
   line-height: 160%;
-  /* or 192px */
-
   color: #004c93;
 }
 .box-content {
-  /* Работаю в сфере разработки программного обеспечения */
-
   position: absolute;
   width: 175px;
   height: 120px;
@@ -58,18 +133,107 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 160%;
-  /* or 26px */
-
   color: #2e4674;
 }
-button {
-  /* Rectangle 10 */
+.b2 {
+margin-left: 20%;
+margin-top: 15%;
 
-  /*position: absolute;*/
+}
+.b3 {
+  margin-left: 40%;
+ }
+.b4 {
+  margin-left: 60%;
+  margin-top: 15%;
+}
+ .b5 {
+
+  margin-left: 78%;
+}
+.section_content{
+   width: 100%;
+}
+.section_title{
+  margin-left: 5%;
+}
+.mood{
+  margin-left: 5%;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.am {
+  width: 50%;
+  height: 50%;
+  margin-top: 2%;
+  margin-left: 5%;
+  height: 50%;
+ }
+ .mood2{
+  height:100%; 
+  width:100%;
+  left:50%; 
+  border-radius:0px; 
+}
+.box-content > h6{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  color: #2e4674;
+}
+.coneiner{
+  margin-right: 5%;
+}
+.footers {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 24px 0;
+
+}
+footer {
+  background: #004C93;
+  padding: 16px 0;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+.end{
+  margin-left: 5%;
+}
+.two{
+  margin-left: 50%;
+}
+.im_end{
+  margin-right: 5%;
+  list-style: none;
+  display: flex;
+  width: auto;
+  gap: 16px;
+  top:50%
+}
+.calcul_global{
+display: flex;
+flex-flow: row nowrap;
+width: 50%;
+height: 50%;
+}
+button {
+  
+  width: 120%;
+  height: 40%;
+  display: flex;
+  margin-top: 25%;
+  background: #004C93;
+  border-radius: 15px;
+  /*position: absolute;
   width: 168px;
   height: 50px;
   left: 0px;
-
+*/
   background: #004c93;
   border-radius: 5px;
   top: 295px; 
@@ -78,13 +242,36 @@ button {
   font-style: normal; 
   font-weight: 400; 
   font-size: 14px; 
-  line-height: 160%; 
+  line-height: 160%;
+  align-items: center;
+  align-content: center;
+  justify-content: center; 
   color: #FFFFFF;
 }
-.calcul {
-  /* Калькулятор */
+.max{ 
+  height:50%;
+  width: 50%;
+  margin-left: 85%;
+  margin-top: auto;
+  margin-bottom: auto;
+  flex-wrap: nowrap;
+  /*background-image: url(/image/calc.jpg)*/
 
-  position: absolute;
+}
+.mary > p{
+ width: 100%;
+height: 100%;
+
+}
+
+.calcul {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-top: 2%;
+  margin-left: 5%;
+  height: 50%;
+  /*position: relative;
   width: 100px;
   height: 19px;
   left: 910px;
@@ -96,48 +283,50 @@ button {
   font-size: 18px;
   line-height: 19px;
 
-  color: #ffffff;
+  color: #ffffff;*/
 }
-.child {
-  width: 220px;
-  height: 44px;
-  top: 2446px;
+.calcul > p{
+ /* font-size: 18px;  
+  position: relative; 
+  width: 100%; 
+  color: #000000;*/
 
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 35px;
-  line-height: 44px;
-  /* identical to box height */
+position: flex;
+width: 100%;
+height: 20%;
+margin-top: 5%;
 
-  color: #004c93;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 160%;
+/* or 22px */
+
+
+color: #000000;
 }
-.header {
-  /* Сложности */
-
+.resul{
+  margin-top: 20%;
+  /*background-image: url(/image/calc.jpg)*/
+}
+form{
+  margin-top: 15%;
+}
+select {
+  box-sizing: border-box;
   position: absolute;
-  width: 90px;
-  height: 19px;
-  left: 1055px;
-  top: 44px;
+  width: 45%;
+  height: 3%;
 
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 19px;
-
-  color: #F3FBFF;
+  border: 1px solid #000000;
 }
 input {
-  /* Rectangle 7 */
 
   box-sizing: border-box;
-
   position: absolute;
-  width: 555px;
-  height: 32px;
-
+  width: 45%;
+  height: 3%;
   border: 1px solid #000000;
 }
 .mask{
@@ -148,164 +337,46 @@ input {
   bottom: 0;
   background-color: rgba(0,0,0,0.7);
 }
-.mary_footer {
-  /* Олег Сосорев */
-  height: 29px;
-  left: 165px;
-  top: 3185px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
-  /* identical to box height */
-
-  color: #fcfafa;
-}
-.mary {
-  /* Меня зовут Олег! */
-
-  position: absolute;
-  width: 317px;
-  height: 44px;
-  left: 165px;
-  top: 160px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 35px;
-  line-height: 44px;
-  /* identical to box height */
-
-  color: #004c93;
-}
-.mary2 {
-  /* И я хочу обучиться программированию, потому что мне это жутко интересно! */
-
-  position: absolute;
-  width: 515px;
-  height: 58px;
-  left: 165px;
-  top: 200px;
-
-  font-family: 'Inter';
-  font-style: italic;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
-
-  color: #004c93;
-}
-.mary4 {
-  /* oleg 1 */
-  justify-content: space-between;
-  position: absolute;
-  width: 350px;
-  height: 500px;
-  left: 810px;
-  top: 0px;
-}
-.name {
-  /* Олег Сосорев */
-  position: absolute;
-  height: 29px;
-  left: 165px;
-  top: 25px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
-  /* identical to box height */
-  color: #ffffff;
-}
-.name2 {
-  position: absolute;
-
-  height: 150px;
-  left: 205px;
-  top: 3175px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 138px;
-  line-height: 29px;
-
-  color: #ffffff;
-}
-.parent {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  height: 250px;
-  height: 100px;
-  left: 0px;
-  top: 0px;
-}
-.result{
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-select {
-  /* Rectangle 8 */
-
-  box-sizing: border-box;
-
-  position: absolute;
-  width: 555px;
-  height: 32px;
-
-  border: 1px solid #000000;
-}
 .window {
   width: 50%;
+  height: 25%;
   margin: auto;
   margin-top: 50px;
   padding: 10px;
   border-radius: 5px;
   background-color: #ffffff;
 }
-.work2 {
-  /* Моя деятельность */
 
-  position: absolute;
-  width: 339px;
-  height: 44px;
-  left: 165px;
-  top: 864px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 44px;
-  /* identical to box height */
-
-  color: #004c93;
+.result{
+  width: 50%;
+  height: 20%;
+  margin-left: auto;
+  margin-right: auto;
+ 
+  position: relative;
 }
-.finish{
-  text-align: right;
-  /*margin-top: 20px;*/
-  margin-bottom: 20px;
-  margin-top: 100px;
-}
+
 .finish > button{
+
 color: #ffffff;
 border: none;
 background: #0288d1;
 padding-top: 0px;
 padding-bottom: 10px;
-padding-left:30px;
-padding-right: 50px;
+padding-left:0%;
+
 border-radius: 10px;
 cursor: pointer;
-margin-top: -70px;
+margin-top: 10%;
+
+width: 100%;
+  height: 20%;
+   
 
 }
 .finish > button:hover{
   background-color: blue;
+}
+.hidden{
+  display: none;
 }
