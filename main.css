@@ -28,8 +28,12 @@ ul.left_name{
   font-weight: 400px;
   margin-right: 5%;
 }
+header{
+  position: fixed;
+}
+
 .headers {
-  position: flex;
+  display: flex;
   justify-content: space-between;
   padding: 24px 0;
   align-items: baseline;
