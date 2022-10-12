@@ -1,10 +1,110 @@
+main{
+  width: 100%;
+}
+.conteiner{
+  display: flex;
+  justify-content: center;
+  height: 5%;
+  background:#004C93;
+  width: 100%;
+}
+.conteiner ul{
+  text-align: center;
+  list-style: none;
+}
+ul.about_me li {
+  justify-content: space-between;
+  vertical-align: middle;
+  display:inline-block;
+  padding: 3px; 
+}
+.name{
+width: 30%;
+font-size: 24px;
+font-weight: 700;
+margin-left: 10%;
+color:white;
+align-self: center;
+display: inline-block;
+vertical-align: middle;
+}
+a{
+  color:white;
+text-decoration: none;}
+.about_me{
+ width: 60%;
+}
 
+
+.blok_one{
+  background: white;
+  width: 90%;
+  align-self: center;
+  justify-content: center
+}
+.name_blok{
+  font-size: 36px;
+  line-height: 44px;
+  text-decoration: none;
+}
+  
+.blok_content{
+align-self: center;
+text-align: center;
+display: inline-block;
+vertical-align: middle;
+}
+
+.info_me{
+width: 45%;
+font-size: 24px;
+font-weight: 700;
+color:#004C93;
+align-self: center;
+text-align: center;
+display: inline-block;
+vertical-align: middle;
+
+}
+.img_me{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.about2{
+  height:400px;
+  width: 600px;
+}
+
+
+
+
+
+.section{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.footer_conteiner{
+  display: flex;
+  justify-content: center;
+  height: 5%;
+  background:#004C93;
+  width: 100%;
+}
+.footer_conteiner ul{
+  text-align: center;
+  list-style: none;
+}
+
+   /*
 nav {
   background: #004C93;
   overflow: hidden;
   top: 0;
-  position: fixed; /* Set the navbar to fixed position */
-  width: 100%; /* Full width */
+  position: fixed; /* Set the navbar to fixed position 
+  width: 100%;  Full width 
 }
 .right_name{
   width: auto;
@@ -117,7 +217,7 @@ header{
   height: 190px;
   left: 20px;
   top: 0px;
-
+  justify-content: center;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
@@ -131,6 +231,9 @@ header{
   height: 120px;
   left: 20px;
   top: 160px;
+  align-items: center;
+  align-content: center;
+  justify-content: center; 
 
   font-family: 'Roboto';
   font-style: normal;
@@ -237,7 +340,7 @@ button {
   width: 168px;
   height: 50px;
   left: 0px;
-*/
+
   background: #004c93;
   border-radius: 5px;
   top: 295px; 
@@ -259,7 +362,7 @@ button {
   margin-top: auto;
   margin-bottom: auto;
   flex-wrap: nowrap;
-  /*background-image: url(/image/calc.jpg)*/
+  /*background-image: url(/image/calc.jpg)
 
 }
 .mary > p{
@@ -287,13 +390,13 @@ height: 100%;
   font-size: 18px;
   line-height: 19px;
 
-  color: #ffffff;*/
+  color: #ffffff;
 }
 .calcul > p{
  /* font-size: 18px;  
   position: relative; 
   width: 100%; 
-  color: #000000;*/
+  color: #000000;
 
 position: flex;
 width: 100%;
@@ -305,14 +408,14 @@ font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 160%;
-/* or 22px */
+/* or 22px 
 
 
 color: #000000;
 }
 .resul{
   margin-top: 20%;
-  /*background-image: url(/image/calc.jpg)*/
+  /*background-image: url(/image/calc.jpg)
 }
 form{
   margin-top: 15%;
@@ -384,3 +487,4 @@ width: 100%;
 .hidden{
   display: none;
 }
+*/
