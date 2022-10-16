@@ -1,6 +1,7 @@
 <html>
 <head>
   <title>Обо мне</title>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic|Playfair+Display:400,700&subset=latin,cyrillic">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
@@ -39,7 +40,7 @@
 <main>
 <header>
       <div class="section">
-            <div class ="conteiner">
+         <div class ="conteiner">
                   <div class="name">Мария Катасонова<a name="up"></a></div>
                   <ul class="about_me">
                         <li><a href="#about_me-id">Обо мне</a></li>
@@ -53,114 +54,113 @@
        </div>
 </header>
 
-
 <div class="blok_one"> 
+      <div class="section_title"> <a href="#up">Меня зовут Мария!</a></div>
       <div class="info_me"><a name="about_me-id"></a>
-                        <div class="name_blok"> Меня зовут Мария!<a href="#up"></a></div>
-                              <div class="blok_content">
+                                    <div class="blok_content">
                                     <h6>И я хочу обучиться программированию, потому что мне это жутко интересно!!!</h6>
-                                    <h6>А еще я люблю музыку, гонять на велосипедеб читать книги и путешествовать.</h6></div>
+                                    <h6>А еще я люблю музыку, гонять на велосипеде, читать книги и путешествовать.</h6></div>
       </div>
       <div class="img_me"><img class="about2" src="image/я.jpg"></div>
      </div>
 </div>
-<!--
-<div class="section">
-      <div class="conteiner">
-            <div class="mework">
-                  <div class="child1">
-                        <div class="section_title"><a name="work" href="#up">Моя деятельность</a></div>
-                        <div class="section_content">      
-                              <div class="box">
-                                    <div class="box-title">1</div>
-                                    <div class="box-content">Работаю в сфере тестирования программного обеспечения</div></div>
-                              <div class="box b2">
-                                    <div class="box-title">2</div>
-                                    <div class="box-content">Люблю собирать кубики рубики, дошла до кубика 7*7</div></div>
-                              <div class="box b3" >
-                                    <div class="box-title">3</div>
-                                    <div class="box-content">Прохожу курсы по скорочтению</div></div>
-                              <div class="box b4">
-                                    <div class="box-title">4</div>
-                                    <div class="box-content">Провожу 3-й раз курс по разработке программного обеспечения</div></div>
-                              <div class="box b5">
-                                    <div class="box-title">5</div>
-                                    <div class="box-content">Читаю книги и катаюсь на велосипеде</div></div>
-                        </div>
-                  </div>
-            </div>
+
+<div class="blok_one two">
+      <div class="section_title"><a name="work" href="#up">Моя деятельность</a></div>
+            <div class="section_content">      
+                  <div class="box">
+                        <div class="box-inside">
+                        <div class="box-title">1</div>
+                        <div class="box-content">Работаю в сфере тестирования ПО</div></div></div>
+                  <div class="box b2">
+                        <div class="box-inside">
+                        <div class="box-title">2</div>
+                        <div class="box-content">Люблю собирать кубики рубики, дошла до кубика 7*7</div></div></div>
+                  <div class="box" >
+                        <div class="box-inside">
+                        <div class="box-title">3</div>
+                        <div class="box-content">Прохожу курсы по скорочтению</div></div></div>
+                  <div class="box b2">
+                        <div class="box-inside">
+                        <div class="box-title">4</div>
+                        <div class="box-content">Провожу 3-й раз курс по разработке программного обеспечения</div></div></div>
+                  <div class="box">
+                        <div class="box-inside">
+                        <div class="box-title">5</div>
+                        <div class="box-content">Читаю книги и катаюсь на велосипеде</div></div></div>
+      </div>
+</div>
+  
+<div class="blok_one">
+    <div class="section_title"><a name="calcul" href="#up">Калькулятор</a></div>
+    <div class="calcul">
+         <form name="valu">
+                  <p>Введите первое число:</p>
+                  <input class="size1" type="number" name="num1"/><br><br>
+                  <br><p>Выберите операцию:</p>
+                  <select class="size" name="operator";>
+                  <option disabled> </option>
+                  <option>/</option>
+                  <option>*</option>
+                  <option>-</option>
+                  <option>+</option>
+                  </select><br>
+                  <br><br><p>Введите второе число:</p>
+                  <input class="size2" type="number" name="num2"/><br><br>
+                  <br><button class="btn btn-primary" onClick="return fetchData(event)">Вычислить</button><br>
+         </form>
+    </div> 
+</div>                                       
+
+<div class="mask hidden">
+      <div class="window">
+        <h2>Отображение результата</h2>
+      <hr />
+        <div>
+              <div class="showResult"> </div><br>
+        </div>
+        <hr />
+        <div class="finish">
+          <button onClick="hide()">Закрыть!</button>
+        </div>
+      </div>
+    </div>
+
+<div class="blok_one two">
+      <div class="section_title"><a name="difficulties" href="#up">Сложности</a></div>
+            <div class="section_content">      
+                  <div class="box">
+                        <div class="box-inside">
+                        <div class="box-title">1</div>
+                        <div class="box-content">Как работает клиент-серверное взаимодействие?</div></div></div>
+                  <div class="box b2">
+                        <div class="box-inside">
+                        <div class="box-title">2</div>
+                        <div class="box-content">Не понимаю, почему не работает калькулятор?</div></div></div>
+                  <div class="box" >
+                        <div class="box-inside">
+                        <div class="box-title">3</div>
+                        <div class="box-content">Не понимаю, как работает точка останова в devTools</div></div></div>
+                  <div class="box b2">
+                        <div class="box-inside">
+                        <div class="box-title">4</div>
+                        <div class="box-content">Как наследуются классы и работают функции-я всё позабывала?</div></div></div>
+                  <div class="box">
+                        <div class="box-inside">
+                        <div class="box-title">5</div>
+                        <div class="box-content">Я слишком стара, для всего этого дерьма</div></div></div>
       </div>
 </div>
 
-<div class="section">
-            <div class="conteiner">
-                              <div class="calcul_global">
-                                                <div class="child">
-                                                      <div class="section_title"><a name="calcul" href="#up">Калькулятор</a></div>
-                                                <div class="calcul">
-                                                                  <form name="valu">
-                                                                        <p>Введите первое число:</p>
-                                                                        <input class="size1" type="number" name="num1"/><br><br>
-                                                                        <br><p>Выберите операцию:</p>
-                                                                        <select class="size" name="operator";>
-                                                                        <option disabled> </option>
-                                                                        <option>/</option>
-                                                                        <option>*</option>
-                                                                        <option>-</option>
-                                                                        <option>+</option>
-                                                                        </select><br>
-                                                                        <br><br><p>Введите второе число:</p>
-                                                                        <input class="size2" type="number" name="num2"/><br><br>
-                                                                        <button class="size" onClick="return fetchData(event)">Вычислить</button><br>
-                                                                  </form>
-                                                            </div> </div> 
-                                                                  <div class="child max">
-                                                     
-                                                                  <div class="resul">
-                                                                             <div ></div>
-                                                                  </div>
-                                                                  <div class="mary"><p>Расчет не производился</p></div>
-                                                            </div>
-                   </div>
-            </div>
-</div>
-
-<div class="section">
-      <div class="conteiner">
-            <div class="mework">
-                <div class="child1">
-                      <div class="section_title"><a name="difficulties" href="#up">Сложности</a></div>
-                      <div class="section_content"> 
-                            <div class="box" >
-                                  <div class="box-title">1</div>
-                                  <div class="box-content"><h6>Как работает клиент-серверное взаимодействие?</h6></div></div>
-                            <div class="box b2" >
-                                  <div class="box-title">2</div>
-                                  <div class="box-content">Не понимаю, почему не работает калькулятор?</div></div>
-                            <div class="box b3" >
-                                  <div class="box-title">3</div>
-                                  <div class="box-content">Не понимаю, как работает точка останова в devTools</div></div>
-                            <div class="box b4" >
-                                  <div class="box-title">4</div>
-                                  <div class="box-content">Как наследуются классы и работают функции-я всё позабывала?</div></div>
-                            <div class="box b5" >
-                                  <div class="box-title">5</div>
-                                  <div class="box-content">Я слишком стара, для всего этого дерьма</div></div>
-                      </div>
-                </div>
-            </div>
-      </div>
-</div>
-
-<div class="conteiner" >
-      <div class="mood" >
+<div class="conteiners" >
+      <div class="mood">
             <div class="section_title"><a name="mood" href="#up">Настроение</a></div>
-            <div class="child am">
             <div><img class="mood2" src="image/image_1.jpg" ;></div>  
-            </div>
+            
       </div>
-</div>-->
+</div>
 
+</main>
 <footer>
       <div class="section">
             <div class = "footer_conteiner">
@@ -172,20 +172,5 @@
             </div>
       </div>
 </footer>
-</main>
-<!--
-  <div class="mask hidden">
-    <div class="window">
-      <h2>Отображение результата</h2>
-    <hr />
-      <div>
-            <div class="showResult"> </div><br>
-      </div>
-      <hr />
-      <div class="finish">
-        <button onClick="hide()">Закрыть!</button>
-      </div>
-    </div>
-  </div>-->
 </body>
 </html>
