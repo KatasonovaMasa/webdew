@@ -45,7 +45,7 @@ $query = mysqli_query($connection, "SELECT * FROM results");
 
 $results = [];
 
-/*Извлечет из ответа query 1-ю строку, которая в ней находится.*/
+
 while ($row = mysqli_fetch_assoc($query)){
     $results[] = $row; /*Добавит в конец массива $users сгенерированную строку.*/
   
