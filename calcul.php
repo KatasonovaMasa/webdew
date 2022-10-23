@@ -15,8 +15,6 @@ while ($row = mysqli_fetch_assoc($query)){
     $results[] = $row; /*Добавит в конец массива $users сгенерированную строку.*/
 }
 
-
-
 $num1 = $_REQUEST['num1'];
 $num2 = $_REQUEST['num2'];
 $operator = $_REQUEST['operator'];
@@ -59,4 +57,3 @@ mysqli_query($connection, "INSERT INTO results (`num1`, `operator`, `num2`, `res
     
     </div>
 <?php }?>
-

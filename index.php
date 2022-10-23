@@ -145,6 +145,16 @@ while ($row = mysqli_fetch_assoc($query)){
             </div>
 </div>
 
+<!--<div>
+<?php// foreach ($results as $result) { ?>
+      <div>
+    <span>-> [<?php// for each... echo $result["num1"]; ?></span>
+      <span> <?php// echo $result["operator"]; ?></span>
+<span> <?php// echo $result["num2"]; ?></span> 
+       <span>= <?php// echo $result["result"]; ?>]</span> 
+            </div>
+      <?php// }?> 
+</div> -->
 
 <div class="section">
       <div class="conteiner">
@@ -192,7 +202,6 @@ while ($row = mysqli_fetch_assoc($query)){
       </div>
  
 </footer>
-
 
   <div class="mask hidden">
     <div class="window">
