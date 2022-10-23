@@ -20,8 +20,7 @@ while ($row = mysqli_fetch_assoc($query)){
 $num1 = $_REQUEST['num1'];
 $num2 = $_REQUEST['num2'];
 $operator = $_REQUEST['operator'];
-$result = $_REQUEST['res'];
-
+$res= $_REQUEST['res'];
 
 
 if ($operator == '/') {
