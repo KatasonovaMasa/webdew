@@ -20,28 +20,35 @@ while ($row = mysqli_fetch_assoc($query)){
 $num1 = $_REQUEST['num1'];
 $num2 = $_REQUEST['num2'];
 $operator = $_REQUEST['operator'];
+$result = $_REQUEST['res'];
 
-mysqli_query($connection, "INSERT INTO results (`num1`, `operator`, `num2`) VALUES ('" . $_REQUEST['num1'] . "', '" . $_REQUEST['operator'] . "', '" . $_REQUEST['num2'] . "' )");
+
 
 if ($operator == '/') {
     if ($num2 == 0) {
-        echo "На 0 делить нельзя";
+        $res = "На 0 делить нельзя";
+        echo $res;
     }
     else if ($num2 >0) {
-        echo $num1 / $num2;
-        
+       $res = $num1 / $num2;
+        echo $res;
+         
     }
 }
 
 else if ($operator == '*') {
-    echo $num1 * $num2;
+     $res = $num1 * $num2;
+    echo $res;
 }
 else if ($operator == '-') {
-    echo $num1 - $num2;
+     $res = $num1 - $num2;
+    echo $res;
 }
 else if ($operator == '+') {
-    echo $num1 + $num2;
+    $res = $num1 + $num2;
+    echo $ressult;
 }
+mysqli_query($connection, "INSERT INTO results (`num1`, `operator`, `num2`, `result`) VALUES ('" . $_REQUEST['num1'] . "', '" . $_REQUEST['operator'] . "', '" . $_REQUEST['num2'] . "',  '" . $_REQUEST['res'] . "')");
 
 ?>
 <?php foreach ($results as $result){ ?>
