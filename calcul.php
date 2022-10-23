@@ -46,7 +46,7 @@ else if ($operator == '-') {
 }
 else if ($operator == '+') {
     $res = $num1 + $num2;
-    echo $ressult;
+    echo $res;
 }
 mysqli_query($connection, "INSERT INTO results (`num1`, `operator`, `num2`, `result`) VALUES ('" . $_REQUEST['num1'] . "', '" . $_REQUEST['operator'] . "', '" . $_REQUEST['num2'] . "',  '" . $_REQUEST['res'] . "')");
 
