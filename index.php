@@ -34,6 +34,25 @@
       }
 
  </script>
+<?php 
+$connection = mysqli_connect("localhost", "root", "", "calculator");
+if (!$connection){
+    die ("Связь не установлена: " . mysqli_connect_error());
+
+}
+
+$query = mysqli_query($connection, "SELECT * FROM results");
+
+$results = [];
+
+/*Извлечет из ответа query 1-ю строку, которая в ней находится.*/
+while ($row = mysqli_fetch_assoc($query)){
+    $results[] = $row; /*Добавит в конец массива $users сгенерированную строку.*/
+  
+}
+?>
+
+
 </head>
 <body>
 <header>
@@ -117,10 +136,27 @@
                                                                   <div class="resul">
                                                                              <div ></div>
                                                                   </div>
-                                                                  <div class="mary"><p>Расчет не производился</p></div>
+                                                                  <div class="mary"> 
+
+                                                                        
+                                                                  </div>
                                                             </div>
                    </div>
             </div>
+</div>
+
+
+<div>
+<?php foreach ($results as $result) { ?>
+      <div>
+      <span>-> [<?php echo $result["num1"]; ?></span>
+      <span> <?php echo $result["operator"]; ?></span>
+       <span> <?php echo $result["num2"]; ?></span> 
+       <span>= <?php echo $result["result"]; ?>]</span> 
+                  
+            </div>
+      <?php }?>
+
 </div>
 
 <div class="section">

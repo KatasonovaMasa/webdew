@@ -343,7 +343,7 @@ input {
 }
 .window {
   width: 50%;
-  height: 25%;
+  height: 100%;
   margin: auto;
   margin-top: 50px;
   padding: 10px;
