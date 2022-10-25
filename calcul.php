@@ -20,8 +20,12 @@ $num2 = $_REQUEST['num2'];
 $operator = $_REQUEST['operator'];
 $res;
 
+if (!empty($_REQUEST['num1']) && empty($_REQUEST['num2'])) {
+    $error = "Одно из чисел или оба, пустые. Необходимо заполнить";
+    echo $error;
+}
 
-if ($operator == '/') {
+else if ($operator == '/') {
     if ($num2 == 0) {
         $res = "На 0 делить нельзя";
         echo $res;
