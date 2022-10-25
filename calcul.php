@@ -20,7 +20,7 @@ $num2 = $_REQUEST['num2'];
 $operator = $_REQUEST['operator'];
 $res;
 
-if (!empty($_REQUEST['num1']) && empty($_REQUEST['num2'])) {
+if (!isset($_REQUEST['num1']) && isset($_REQUEST['num2'])) {
     $error = "Одно из чисел или оба, пустые. Необходимо заполнить";
     echo $error;
 }
